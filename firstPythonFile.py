@@ -94,3 +94,10 @@ b=[1,2,3]
 a==b;//true
 a is b;//false
 '''
+'''
+import random
+random.randint(start,end)=>end is exclusive here
+range(start,end,interval)=>used to create a particular set of
+integers which we can loop over
+
+'''
