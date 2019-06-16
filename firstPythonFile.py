@@ -101,3 +101,25 @@ range(start,end,interval)=>used to create a particular set of
 integers which we can loop over
 
 '''
+'''
+lists is an array dataStructure but it can contain
+different dataTypes in it 
+len(array) is used to find the length of array
+range(1,10) can be converted to list using list(range())
+to check whether an element in list we use element in list 
+it returns true or false
+'''
+'''
+list's util methods are append,extend,insert
+clear => deletes all elements in a list
+pop(index) =>if index not passed it will remove from last
+remove(num)=>deletes the first num found
+index(num,startPoint) =>gives us the index of num 
+count(num)=>counts the number of occurence of num in a list
+
+reverse()=>reverses a list inplace
+join()=>' '.join(list)=>joins all elements of list with a space
+slice => array[start:end:step]
+to make a complete copy of the array
+use array[:] where array is the list you want to make copy of
+'''
