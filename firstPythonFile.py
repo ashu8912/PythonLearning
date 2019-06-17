@@ -123,3 +123,22 @@ slice => array[start:end:step]
 to make a complete copy of the array
 use array[:] where array is the list you want to make copy of
 '''
+'''
+dictionaries
+similar to javascript objects
+dict(key=value)
+to check a key in dictionary 
+use the in operator 
+'property' in instructor
+we can check for key using other way also 
+that is dictionary.keys() and using in on this
+we can also do dictionary.values() to check whether a value is 
+there in dictionaryit returns a list like
+data structure(not actual list) where we can do
+property in dictionary.values()
+#dictionary methods
+clear=>empties the dictionary
+dictionary.copy()=>creates a copy
+fromKeys(key or keys list iterable,value)
+get(key)=>returns None if not found and doesn't throws error 
+'''
