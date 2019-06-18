@@ -142,3 +142,36 @@ dictionary.copy()=>creates a copy
 fromKeys(key or keys list iterable,value)
 get(key)=>returns None if not found and doesn't throws error 
 '''
+'''
+tuple
+alphabets=('a','b','c','d')
+tuples are immutable meaning it can't be changed
+than why use tuple??
+coz tuples are lighter weight and faster than lists
+use them when you know something is going to be same for an
+entire execution of a program
+we can access tuples by the square bracket syntax
+tuple[0]
+tuples can be used as key in dictionary
+tuples.count(value) returns how many time the value occured in tuple
+tuples.index(value) returns the index of value if not found than value error
+we can use slices with tuples
+'''
+'''
+Sets
+sets do not have duplicate value
+elements in set are not ordered 
+we can't access element with index
+syntax:
+variable={1,2,3,4,5}
+to check whether an element is in a set use
+variable in set
+set methods:
+name_of_set.add(value)=>adds the value to set
+name_of_set.remove(value)=>removes if not found throws error
+name_of_set.discard(value)=>doesn't throws error when not found
+name_of_set.copy(set)
+name_of_sets.clear()
+union in sets name_of_set | name_of_set
+intersection in sets name_of_set & name_of_set
+'''
