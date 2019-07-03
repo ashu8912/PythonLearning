@@ -141,6 +141,8 @@ clear=>empties the dictionary
 dictionary.copy()=>creates a copy
 fromKeys(key or keys list iterable,value)
 get(key)=>returns None if not found and doesn't throws error 
+dictionary.items() collection of tuples where each tuple has key and value
+so that we can loop over dictionary.items()
 '''
 '''
 tuple
@@ -152,7 +154,7 @@ use them when you know something is going to be same for an
 entire execution of a program
 we can access tuples by the square bracket syntax
 tuple[0]
-tuples can be used as key in dictionary
+tuples can be used as key in dictionary but list can't be used
 tuples.count(value) returns how many time the value occured in tuple
 tuples.index(value) returns the index of value if not found than value error
 we can use slices with tuples
@@ -174,4 +176,34 @@ name_of_set.copy(set)
 name_of_sets.clear()
 union in sets name_of_set | name_of_set
 intersection in sets name_of_set & name_of_set
+
+'''
+'''
+list Comprehension
+[__for__in__]
+double every element in list
+[num*2 for num in nums]
+uppercase each character in array
+[char.upper() for char in chars]
+
+list comprehension with conditional
+even=[num for num in nums if num%2==0]
+odd=[num for num in nums if num%2!=0]
+
+if else in list comprehension
+[num*2 if num%2==0 else num/2 for num in nums]
+'''
+'''
+functions
+  def function_name():
+		 statements
+keyword arguments => we can specify argument such that 
+    def add(a,b):
+			return a**b;
+		add(b=2,a=3);//will return 9		
+To refer to a global variable inside a function we have to use 
+global keyword before the variable name
+a function inside another function when wants to refer to its
+parent variables has to use nonlocal keyword before the variable
+name			 
 '''
